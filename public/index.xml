@@ -26,7 +26,8 @@
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h2&gt;
 
-&lt;p&gt;每次看到别人有自己的漂亮博客就好羡慕好羡慕，但秉持着“只要手头上还有比这更容易做的事就不轻易动手”的原则，一直拖拖拖拖了一整个2022……于是在2023年1月1号这一天，博主抛下了难产的年终总结以及难产的毕设中期报告，撸起袖子开始捣鼓了！&lt;/p&gt;
+&lt;p&gt;每次看到别人有自己的漂亮博客就好羡慕好羡慕，但秉持着“只要手头上还有比这更容易做的事就不轻易动手”的原则，一直拖拖拖拖了一整个2022……于是在2023年1月1号这一天，博主抛下了难产的年终总结以及难产的毕设中期报告，撸起袖子开始捣鼓了！
+设备环境：MacBook Air 2020(M1), macOS Ventura 13.1, Chrome&lt;/p&gt;
 
 
 &lt;h2 class=&#34;group &#34; id=&#34;todo-list&#34;
@@ -35,7 +36,8 @@
 &gt;&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;插入图片无法显示的问题&lt;/li&gt;
+&lt;li&gt;评论系统（但因为博客没人看，可以稍后再议）&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -152,13 +154,13 @@
     &lt;/div&gt;&lt;p style=&#34;margin: 0;&#34;&gt;以下两种方法都可以部署，博主两种都试过之后才发现自己是非常画蛇添足地先部署到GitHub Page，再把GitHub Page部署到Vercel上（啊啊啊被自己笨死）。但其实不用这么麻烦的，两种选一种就可以了！（反正在国内这俩都不能流畅访问是吧）&lt;/p&gt;&lt;/div&gt;
 
 &lt;div class=&#34;tabs my-4 flex flex-wrap&#34;&gt;
-&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-269851347-&#34;checked=&#34;checked&#34;/&gt;
-&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-269851347-&#34;&gt;部署在GitHub Page上&lt;/label&gt;
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-913567824-&#34;checked=&#34;checked&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-913567824-&#34;&gt;部署在GitHub Page上&lt;/label&gt;
 &lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;&lt;/div&gt;
 
 
-&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-843795612-&#34;/&gt;
-&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-843795612-&#34;&gt;部署在Vercel上&lt;/label&gt;
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-684273591-&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-684273591-&#34;&gt;部署在Vercel上&lt;/label&gt;
 &lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;这一步出了点问题，不知道为什么最后生成的网页界面是正确的，但是文章内容一个都点不开……遂决定推倒重来&lt;/div&gt;
 
 &lt;/div&gt;
@@ -176,22 +178,22 @@
 
 
 
-&lt;h3 class=&#34;group &#34; id=&#34;如何更新博客&#34;
-    &gt;如何更新博客&lt;a href=&#34;#%e5%a6%82%e4%bd%95%e6%9b%b4%e6%96%b0%e5%8d%9a%e5%ae%a2&#34;
+&lt;h3 class=&#34;group &#34; id=&#34;1-如何更新博客&#34;
+    &gt;1. 如何更新博客&lt;a href=&#34;#1-%e5%a6%82%e4%bd%95%e6%9b%b4%e6%96%b0%e5%8d%9a%e5%ae%a2&#34;
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h3&gt;
 
 
 
-&lt;h3 class=&#34;group &#34; id=&#34;域名获取及重定向&#34;
-    &gt;域名获取及重定向&lt;a href=&#34;#%e5%9f%9f%e5%90%8d%e8%8e%b7%e5%8f%96%e5%8f%8a%e9%87%8d%e5%ae%9a%e5%90%91&#34;
+&lt;h3 class=&#34;group &#34; id=&#34;2-域名获取及重定向&#34;
+    &gt;2. 域名获取及重定向&lt;a href=&#34;#2-%e5%9f%9f%e5%90%8d%e8%8e%b7%e5%8f%96%e5%8f%8a%e9%87%8d%e5%ae%9a%e5%90%91&#34;
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h3&gt;
 
 
 
-&lt;h3 class=&#34;group &#34; id=&#34;其他有用的&#34;
-    &gt;其他有用的&lt;a href=&#34;#%e5%85%b6%e4%bb%96%e6%9c%89%e7%94%a8%e7%9a%84&#34;
+&lt;h3 class=&#34;group &#34; id=&#34;3-其他有用的&#34;
+    &gt;3. 其他有用的&lt;a href=&#34;#3-%e5%85%b6%e4%bb%96%e6%9c%89%e7%94%a8%e7%9a%84&#34;
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h3&gt;
 
@@ -203,28 +205,29 @@
 &gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-
-
-&lt;h2 class=&#34;group &#34; id=&#34;中途遇到的一些问题&#34;
-    &gt;中途遇到的一些问题&lt;a href=&#34;#%e4%b8%ad%e9%80%94%e9%81%87%e5%88%b0%e7%9a%84%e4%b8%80%e4%ba%9b%e9%97%ae%e9%a2%98&#34;
-        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
-&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;插入图片无法显示&lt;/li&gt;
-&lt;/ul&gt;
 </description></item><item>
             <title>2022恋爱回忆录</title>
             <link>https://Leticiooo.github.io/posts/relationship-summary-2022.html/</link>
             <pubDate>Sat, 31 Dec 2022 10:54:50 +0800</pubDate>
-            <guid>https://Leticiooo.github.io/posts/relationship-summary-2022.html/</guid><description>&lt;div class=&#34;timeline my-4&#34;&gt;&lt;div class=&#34;timeline-item&#34;&gt;
+            <guid>https://Leticiooo.github.io/posts/relationship-summary-2022.html/</guid><description>&lt;p&gt;&lt;div class=&#34;timeline my-4&#34;&gt;&lt;div class=&#34;timeline-item&#34;&gt;
             &lt;span&gt;2022年03月12日 &lt;/span&gt;
         &lt;/div&gt;&lt;div class=&#34;timeline-item&#34;&gt;
             &lt;span&gt;2022年03月20日 &lt;/span&gt;
         &lt;/div&gt;&lt;div class=&#34;timeline-item&#34;&gt;
             &lt;span&gt;2022年03月27日 &lt;/span&gt;
+        &lt;/div&gt;&lt;div class=&#34;timeline-item&#34;&gt;
+            &lt;span&gt;2022年03月31日 &lt;/span&gt;
+        &lt;/div&gt;&lt;div class=&#34;timeline-item&#34;&gt;
+            &lt;span&gt;2022年04月04日 &lt;/span&gt;
         &lt;/div&gt;&lt;/div&gt;
 
+
+&lt;div class=&#34;timeline my-4&#34;&gt;&lt;div class=&#34;timeline-item&#34;&gt;
+            &lt;span&gt;2022年05月10日 &lt;/span&gt;
+        &lt;/div&gt;&lt;div class=&#34;timeline-item&#34;&gt;
+            &lt;span&gt;2022年05月26日 &lt;/span&gt;
+        &lt;/div&gt;&lt;/div&gt;
+&lt;/p&gt;
 </description></item><item>
             <title>难产的2022年终总结</title>
             <link>https://Leticiooo.github.io/posts/annual-summary-2022.html/</link>
