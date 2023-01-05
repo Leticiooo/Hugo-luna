@@ -1,4 +1,4 @@
-baseURL: https://Leticiooo.github.io/
+baseURL: https://www.xaviera.eu.org/
 languageCode: zh-cn
 defaultContentLanguage: zh-cn
 title: "Silly Thing"
@@ -7,6 +7,8 @@ enableEmoji: true
 theme: hugo-theme-luna
 timeout: 60000
 timeZone: Asia/Shanghai
+
+img {zoom: 50%;}
 
 # 可根据 Git 中的提交生成最近更新记录。
 # use git commit log to generate lastmod record
