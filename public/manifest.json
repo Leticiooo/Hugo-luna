@@ -1,0 +1,36 @@
+{
+    "theme_color": "#dd6065",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Silly Thing",
+    "short_name": "xxxiny",
+    "description": "Silly Thing",
+    "icons": [
+        {
+            "src": "/icon_hucd2164b20e778169e6e9daa4c54bcd03_5342_192x192_resize_catmullrom_3.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon_hucd2164b20e778169e6e9daa4c54bcd03_5342_256x256_resize_catmullrom_3.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon_hucd2164b20e778169e6e9daa4c54bcd03_5342_384x384_resize_catmullrom_3.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon_hucd2164b20e778169e6e9daa4c54bcd03_5342_512x512_resize_catmullrom_3.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
