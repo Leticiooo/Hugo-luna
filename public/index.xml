@@ -26,62 +26,89 @@
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h2&gt;
 
-&lt;p&gt;每次看到别人有自己的漂亮博客就好羡慕好羡慕，但秉持着“只要手头上还有比这更容易做的事就不轻易动手”的原则，一直拖拖拖拖了一整个2022……于是在2023年1月1号这一天，博主抛下了难产的年终总结以及难产的毕设中期报告，撸起袖子开始捣鼓了！&lt;br&gt;
-设备与测试环境：&lt;span class=&#34;bg-blue-500/10 text-blue-500 whitespace-nowrap rounded py-1 px-2 text-sm&#34;&gt;MacBook Air 2020(M1)&lt;/span&gt;
+&lt;p&gt;每次看到别人有自己的漂亮博客就好羡慕好羡慕，但秉持着“只要手头上还有比这更容易做的事就不轻易动手”的原则，一直拖拖拖拖了一整个2022……于是在2023年1月1号这一天，博主抛下了难产的年终总结以及难产的毕设中期报告，撸起袖子开始捣鼓了！&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;搭建过程中遇到了很多奇怪的问题（甚至更换了几次主题……），在此特别感谢：
+&lt;ul&gt;
+&lt;li&gt;&lt;a
+    class=&#34;link&#34;
+    href=&#34;https://mantyke.icu/posts/2021/hugo-build-blog/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;一起动手搭建个人博客吧&lt;/a
+&gt;
+对静态博客的详尽介绍&lt;/li&gt;
+&lt;li&gt;&lt;a
+    class=&#34;link&#34;
+    href=&#34;https://www.sulvblog.cn/posts/blog/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hugo博客搭建｜PaperMod主题&lt;/a
+&gt;
+让我对hugo主题有了更深的理解（当然也跟着这篇博文尝试过大刀阔斧的改建……）&lt;/li&gt;
+&lt;li&gt;换到luna主题主要参考了&lt;a
+    class=&#34;link&#34;
+    href=&#34;https://gregueria.icu/posts/hugo-luna/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Luna｜换上了新主题，一边装修一边相声&lt;/a
+&gt;
+&lt;/li&gt;
+&lt;li&gt;以及好朋友写的&lt;a
+    class=&#34;link&#34;
+    href=&#34;https://www.houdini.eu.org/%E5%9B%BD%E5%BA%86%E4%B8%8D%E5%87%BA%E9%97%A8%E5%AE%85%E5%A5%B3%E7%BE%8E%E4%B8%BD%E6%96%B0%E5%AE%B6%E8%A3%85%E6%BD%A2%E4%B8%80%E7%AB%99%E5%BC%8F%E7%AC%94%E8%AE%B0.html/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;国庆不出门宅女美丽新家装潢一站式笔记&lt;/a
+&gt;
+(真的太感谢这篇！)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;设备与测试环境：&lt;span class=&#34;bg-blue-500/10 text-blue-500 whitespace-nowrap rounded py-1 px-2 text-sm&#34;&gt;MacBook Air 2020(M1)&lt;/span&gt;
  &lt;span class=&#34;bg-blue-500/10 text-blue-500 whitespace-nowrap rounded py-1 px-2 text-sm&#34;&gt;macOS Ventura 13.1&lt;/span&gt;
   &lt;span class=&#34;bg-blue-500/10 text-blue-500 whitespace-nowrap rounded py-1 px-2 text-sm&#34;&gt;Chrome&lt;/span&gt;
+&lt;/p&gt;
 
-&lt;fieldset class=&#34;my-16 border-t border-gray-300 dark:border-darkBorder&#34;&gt;
-    &lt;legend class=&#34;mx-auto my-0 px-2&#34;&gt;在这里放一个ToDo List&lt;/legend&gt;
-&lt;/fieldset&gt;
 
-&lt;div class=&#34;border-yellow-400 border-green-400 border-red-400 border-blue-400&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;bg-yellow-400 bg-green-400 bg-red-400 bg-blue-400&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;text-yellow-400 text-green-400 text-red-400 text-blue-400&#34;&gt;&lt;/div&gt;
+&lt;h2 class=&#34;group &#34; id=&#34;todo-list&#34;
+    &gt;ToDo List&lt;a href=&#34;#todo-list&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
 
-&lt;div
-    class=&#34;border-green-400 bg-green-400 my-4 ml-0 flex items-start rounded border-l-4 bg-opacity-10 p-5 dark:bg-darkBgAccent&#34;
-    
+&lt;details class=&#34;accordion rounded  border dark:border-darkBorder&#34; &gt;
+    &lt;summary class=&#34;flex items-center px-4 py-2 font-bold before:mr-0.5 before:-mt-0.5 before:text-xl before:text-gray-400&#34;&gt;详情&lt;/summary&gt;
+    &lt;div class=&#34;border-t px-4 py-2  dark:border-darkBorder&#34;&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;普通博客文章插入图片默认铺满宽度，无法调整大小（但在gallery模式就可以）&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;2023-01-09更新：解决啦！实在憋不住去GitHub上给作者留了个issue，没想到很快就得到了&lt;a
+    class=&#34;link&#34;
+    href=&#34;https://github.com/Ice-Hazymoon/hugo-theme-luna/issues/60&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;回复&lt;/a
 &gt;
-    &lt;div class=&#34;mr-2&#34;&gt;
-        &lt;i class=&#34;eva text-green-400 eva-checkmark-circle-2-outline text-2xl&#34;&gt;&lt;/i&gt;
-    &lt;/div&gt;&lt;p style=&#34;margin: 0;&#34;&gt;&lt;strong&gt;普通博客文章插入图片默认铺满宽度，无法调整大小（但在gallery模式就可以）&lt;/strong&gt;&lt;br&gt;
-丨2023-01-09更新：解决啦！实在憋不住去GitHub上给作者留了个issue，没想到很快就得到了回复！&lt;/p&gt;&lt;/div&gt;
-
-具体方法是在&lt;code&gt;/assets/sass/typo.scss&lt;/code&gt;中找到第281行：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#50fa7b&#34;&gt;img&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#50fa7b&#34;&gt;not&lt;/span&gt;(&lt;span style=&#34;color:#ff79c6&#34;&gt;.&lt;/span&gt;link-card-img)&lt;span style=&#34;color:#ff79c6&#34;&gt;,&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;删去改为&lt;/p&gt;
+！&lt;/li&gt;
+&lt;li&gt;具体方法是在&lt;code&gt;/assets/sass/typo.scss&lt;/code&gt;中&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
 &lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
 &lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
 &lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;7
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#ff79c6&#34;&gt;img&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#ff79c6&#34;&gt;@apply&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;my-4&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;rounded&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;dark&lt;/span&gt;:border-darkBorder &lt;span style=&#34;color:#ff79c6&#34;&gt;w-auto&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;mx-auto&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;max-w-&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;60&lt;/span&gt;%&lt;span style=&#34;color:#ff79c6&#34;&gt;]&lt;/span&gt; #这里具体大小可以自己调整
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#6272a4&#34;&gt;//找到第281行： 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6272a4&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#50fa7b&#34;&gt;img&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#50fa7b&#34;&gt;not&lt;/span&gt;(&lt;span style=&#34;color:#ff79c6&#34;&gt;.&lt;/span&gt;link-card-img)&lt;span style=&#34;color:#ff79c6&#34;&gt;,&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#6272a4&#34;&gt;//将上面这行删去改为&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  img {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#ff79c6&#34;&gt;@apply&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;my-4&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;rounded&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;dark&lt;/span&gt;:border-darkBorder &lt;span style=&#34;color:#ff79c6&#34;&gt;w-auto&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;mx-auto&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;max-w-&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;60&lt;/span&gt;%&lt;span style=&#34;color:#ff79c6&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;//&lt;/span&gt;这里具体大小可以自己调整
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;div class=&#34;border-yellow-400 border-green-400 border-red-400 border-blue-400&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;bg-yellow-400 bg-green-400 bg-red-400 bg-blue-400&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;text-yellow-400 text-green-400 text-red-400 text-blue-400&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;想要一个评论系统&amp;gt;&amp;lt;&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;因为博客暂时没人看，可以稍后再议&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/details&gt;
 
-&lt;div
-    class=&#34;border-blue-400 bg-blue-400 my-4 ml-0 flex items-start rounded border-l-4 bg-opacity-10 p-5 dark:bg-darkBgAccent&#34;
-    
-&gt;
-    &lt;div class=&#34;mr-2&#34;&gt;
-        &lt;i class=&#34;eva text-blue-400 eva-question-mark-circle-outline text-2xl&#34;&gt;&lt;/i&gt;
-    &lt;/div&gt;&lt;p style=&#34;margin: 0;&#34;&gt;&lt;strong&gt;评论系统&lt;/strong&gt;&lt;br&gt;
-丨但因为博客没人看，可以稍后再议&lt;/p&gt;&lt;/div&gt;
+&lt;fieldset class=&#34;my-16 border-t border-gray-300 dark:border-darkBorder&#34;&gt;
+    &lt;legend class=&#34;mx-auto my-0 px-2&#34;&gt;开始搭建！&lt;/legend&gt;
+&lt;/fieldset&gt;
 
 
 
@@ -92,11 +119,49 @@
 
 
 
-&lt;h3 class=&#34;group &#34; id=&#34;1-安装git&#34;
-    &gt;1. 安装Git&lt;a href=&#34;#1-%e5%ae%89%e8%a3%85git&#34;
+&lt;h3 class=&#34;group &#34; id=&#34;1-安装homebrew和git&#34;
+    &gt;1. 安装Homebrew和Git&lt;a href=&#34;#1-%e5%ae%89%e8%a3%85homebrew%e5%92%8cgit&#34;
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h3&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;以下是基于Mac(M1)的安装方法，其他操作系统可根据&lt;a
+    class=&#34;link&#34;
+    href=&#34;https://brew.sh/index_zh-cn&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homebrew官网教程&lt;/a
+&gt;
+进行安装。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;首先需要在mac上打开“终端”（英文版系统叫Terminal，不会打开的朋友可以看&lt;a
+    class=&#34;link&#34;
+    href=&#34;https://zhuanlan.zhihu.com/p/369615135&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;这里&lt;/a
+&gt;
+)。随后在终端命令行窗口输入官网提供的安装命令。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;但是由于GFW的存在，如果没连VPN，可能会报错
+&lt;code&gt;curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused&lt;/code&gt;。
+搜索后发现gitee上的大佬写了自动安装脚本，只需在终端内输入&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/bin/zsh -c &amp;#34;$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;回车执行指令后，出现下图，根据提示选择镜像下载即可。&lt;br&gt;
+
+这里要注意的是，在安装homebrew的过程中，如果之前没有安装过git，系统会终止homebrew安装并弹出git安装提示。点击“安装”，耐心等待git安装完成后再次输入homebrew安装指令，重复以上步骤即可。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;验证安装是否成功：安装脚本执行完成后，重启终端，分别输入&lt;code&gt;brew -v&lt;/code&gt;以及&lt;code&gt;git version&lt;/code&gt;验证，输出版本号则说明homebrew和git已安装成功。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
 
 
 &lt;h3 class=&#34;group &#34; id=&#34;2-安装hugo&#34;
@@ -104,6 +169,8 @@
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h3&gt;
 
+&lt;p&gt;直接在终端内输入&lt;code&gt;brew install hugo&lt;/code&gt;，等待安装完成。随后输入&lt;code&gt;hugo version&lt;/code&gt;，若出现版本信息则表示安装成功。&lt;/p&gt;
+&lt;hr&gt;
 
 
 &lt;h3 class=&#34;group &#34; id=&#34;3-配置ssh&#34;
@@ -111,7 +178,7 @@
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h3&gt;
 
-&lt;p&gt;&lt;div class=&#34;border-yellow-400 border-green-400 border-red-400 border-blue-400&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;border-yellow-400 border-green-400 border-red-400 border-blue-400&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;bg-yellow-400 bg-green-400 bg-red-400 bg-blue-400&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;text-yellow-400 text-green-400 text-red-400 text-blue-400&#34;&gt;&lt;/div&gt;
 
@@ -123,7 +190,100 @@
         &lt;i class=&#34;eva text-yellow-400 eva-alert-circle-outline text-2xl&#34;&gt;&lt;/i&gt;
     &lt;/div&gt;&lt;p style=&#34;margin: 0;&#34;&gt;其实博主本人并不明确地知道这个步骤是否有用，因为在搭建过程中出了太多奇怪的问题，推倒重建过好几次，但这一步并没有重建。&lt;/p&gt;&lt;/div&gt;
 
-验证SSH连接是否成功，继续在终端内输入
+&lt;p&gt;SSH 密钥用来链接本地和 Git 服务器，它成对生成，分别是” 公钥 “和” 私钥 “，我们将其中的” 公钥 “保存到 Git 仓库后，就可以在电脑上向这个 Git 仓库提交代码。&lt;br&gt;
+Github Docs有一篇讲SSH连接的&lt;a
+    class=&#34;link&#34;
+    href=&#34;https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;中文文档&lt;/a
+&gt;
+，可以辅助参考。&lt;/p&gt;
+
+
+&lt;h4 class=&#34;group &#34; id=&#34;查看是否已配置过ssh该步可省去&#34;
+    &gt;查看是否已配置过SSH（该步可省去）&lt;a href=&#34;#%e6%9f%a5%e7%9c%8b%e6%98%af%e5%90%a6%e5%b7%b2%e9%85%8d%e7%bd%ae%e8%bf%87ssh%e8%af%a5%e6%ad%a5%e5%8f%af%e7%9c%81%e5%8e%bb&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h4&gt;
+
+&lt;p&gt;打开终端，在默认目录输入&lt;code&gt;cd ~/.ssh&lt;/code&gt;，如果无法进入该目录说明还没有生成过。&lt;/p&gt;
+
+
+&lt;h4 class=&#34;group &#34; id=&#34;生成ssh&#34;
+    &gt;生成SSH&lt;a href=&#34;#%e7%94%9f%e6%88%90ssh&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h4&gt;
+
+&lt;p&gt;在终端输入&lt;code&gt;ssh-keygen -t rsa -C &amp;quot;github注册时使用的邮箱名&amp;quot;&lt;/code&gt;
+enter出现类似如下的代码&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;16
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;17
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;18
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;19
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;20
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;21
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;22
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ ssh-keygen -t rsa -C &amp;#34;github注册时使用的邮箱名&amp;#34; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Generating public/private rsa key pair.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Enter file in which to save the key (/Users/Username/.ssh/id_rsa):    //密钥的目录
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Created directory &amp;#39;/Users/Username/.ssh&amp;#39;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Enter passphrase (empty for no passphrase):    //直接按回车则密码设置为空
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Enter same passphrase again:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Your identification has been saved in /Users/Username/.ssh/id_rsa.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Your public key has been saved in /Users/Username/.ssh/id_rsa.pub.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;The key fingerprint is:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SHA256:******* **** //公钥
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;The key&amp;#39;s randomart image is:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;+---[RSA 3072]----+
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;|     o.*+ . .o.. |
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;|    + *o*. .. .  |
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;|     *.B       o |
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;|      +. .    . .|
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;|      . S E .  . |
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;|     . . + = .o  |
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;|    . . + +.*. . |
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;|     . o.+o@.    |
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;|        o*B.o    |
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;+----[SHA256]-----+
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;输入自定义密码（不需要的话就一路回车），然后可以看到id_rsa的文件名和路径&lt;code&gt;/User/Username/.ssh/id_rsa&lt;/code&gt;。&lt;/p&gt;
+
+
+&lt;h4 class=&#34;group &#34; id=&#34;连接ssh&#34;
+    &gt;连接SSH&lt;a href=&#34;#%e8%bf%9e%e6%8e%a5ssh&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h4&gt;
+
+&lt;p&gt;依据上面的文件路径找到公钥，然而/User/Username/.ssh是个隐藏文件夹，默认情况下我们看不到。为了找到这个隐藏文件夹，使用快捷键&lt;span class=&#34;bg-blue-500/10 text-blue-500 whitespace-nowrap rounded py-1 px-2 text-sm&#34;&gt;shift&lt;/span&gt;
++&lt;span class=&#34;bg-blue-500/10 text-blue-500 whitespace-nowrap rounded py-1 px-2 text-sm&#34;&gt;command&lt;/span&gt;
++&lt;span class=&#34;bg-blue-500/10 text-blue-500 whitespace-nowrap rounded py-1 px-2 text-sm&#34;&gt;.&lt;/span&gt;
+(每个人设置的快捷键不同，此处是默认快捷键)。右键用记事本打开id_rsa.pub文件，复制里面的全部内容。&lt;br&gt;
+打开 Github 账号，右上角头像 - Settings，在左边找到 SSH and GPG keys 选项，新建一个 SSH 密钥，标题可以随便填，把之前复制的密钥内容粘贴进去，保存。&lt;/p&gt;
+
+
+&lt;h4 class=&#34;group &#34; id=&#34;验证ssh连接是否成功&#34;
+    &gt;验证SSH连接是否成功&lt;a href=&#34;#%e9%aa%8c%e8%af%81ssh%e8%bf%9e%e6%8e%a5%e6%98%af%e5%90%a6%e6%88%90%e5%8a%9f&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h4&gt;
+
+&lt;p&gt;继续在终端内输入
 &lt;code&gt;ssh -T git@github.com&lt;/code&gt;&lt;br&gt;
 如果返回&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
@@ -134,7 +294,7 @@
 &lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Hi Username! You&amp;#39;ve successfully authenticated, but GitHub does not provide shell access.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;则为连接成功。如果出现&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;则为连接成功。如果出现以下语句则输入&lt;code&gt;yes&lt;/code&gt;后回车即可。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
 &lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
@@ -143,8 +303,46 @@
 &lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Are you sure you want to continue connecting (yes/no/[fingerprint])?
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;则输入&lt;code&gt;yes&lt;/code&gt;后回车即可。&lt;br&gt;
-很不幸，博主在输入yes后返回的是&lt;code&gt;git@github.com: Permission denied (publickey).&lt;/code&gt;，搜索发现应该是ssh密钥出了问题，于是返回重新生成.pub文件，不知道为什么反复重试了好几次之后突然成功了（可能靠一些执着感动了它）。&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;很不幸，博主在输入yes后返回的是&lt;code&gt;git@github.com: Permission denied (publickey).&lt;/code&gt;，搜索发现应该是ssh密钥出了问题，于是返回重新生成.pub文件，但不知道为什么反复重试了好几次之后突然成功了（可能靠一些执着感动了它）。&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&#34;border-yellow-400 border-green-400 border-red-400 border-blue-400&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;bg-yellow-400 bg-green-400 bg-red-400 bg-blue-400&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;text-yellow-400 text-green-400 text-red-400 text-blue-400&#34;&gt;&lt;/div&gt;
+
+&lt;div
+    class=&#34;border-yellow-400 bg-yellow-400 my-4 ml-0 flex items-start rounded border-l-4 bg-opacity-10 p-5 dark:bg-darkBgAccent&#34;
+    
+&gt;
+    &lt;div class=&#34;mr-2&#34;&gt;
+        &lt;i class=&#34;eva text-yellow-400 eva-alert-circle-outline text-2xl&#34;&gt;&lt;/i&gt;
+    &lt;/div&gt;&lt;p style=&#34;margin: 0;&#34;&gt;安装NodeJS和postcss-cli两步是&lt;a
+    class=&#34;link&#34;
+    href=&#34;https://github.com/Ice-Hazymoon/hugo-theme-luna/blob/master/README.zh.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Luna主题官方文档&lt;/a
+&gt;
+的要求，我在安装其他主题时并未涉及。因此可以查询对应主题的安装文档说明来决定是否需要安装。&lt;/p&gt;&lt;/div&gt;
+
+
+
+&lt;h3 class=&#34;group &#34; id=&#34;4安装nodejs&#34;
+    &gt;4.安装NodeJS&lt;a href=&#34;#4%e5%ae%89%e8%a3%85nodejs&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h3&gt;
+
+&lt;p&gt;进入&lt;a
+    class=&#34;link&#34;
+    href=&#34;https://nodejs.org/zh-cn/download/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NodeJS官网&lt;/a
+&gt;
+挑选合适的安装包下载即可。
+&lt;/p&gt;
+
+
+&lt;h3 class=&#34;group &#34; id=&#34;5安装postcss-cli&#34;
+    &gt;5.安装postcss-cli&lt;a href=&#34;#5%e5%ae%89%e8%a3%85postcss-cli&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h3&gt;
+
+&lt;p&gt;打开终端，输入&lt;code&gt;npm install postcss-cli -g&lt;/code&gt;，等待安装即可。&lt;/p&gt;
+&lt;hr&gt;
 
 
 &lt;h2 class=&#34;group &#34; id=&#34;安装主题&#34;
@@ -154,22 +352,31 @@
 
 
 
-&lt;h3 class=&#34;group &#34; id=&#34;1-挑选主题&#34;
-    &gt;1. 挑选主题&lt;a href=&#34;#1-%e6%8c%91%e9%80%89%e4%b8%bb%e9%a2%98&#34;
+&lt;h3 class=&#34;group &#34; id=&#34;1-新建站点&#34;
+    &gt;1. 新建站点&lt;a href=&#34;#1-%e6%96%b0%e5%bb%ba%e7%ab%99%e7%82%b9&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h3&gt;
+
+&lt;p&gt;打开终端，在根目录下输入&lt;code&gt;hugo new site myblog&lt;/code&gt;，在/User/Username/下就会出现一个名为“myblog”的新文件夹，该文件夹内的目录结构如下图：
+&lt;/p&gt;
+
+
+&lt;h3 class=&#34;group &#34; id=&#34;2-挑选主题&#34;
+    &gt;2. 挑选主题&lt;a href=&#34;#2-%e6%8c%91%e9%80%89%e4%b8%bb%e9%a2%98&#34;
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h3&gt;
 
 
 
-&lt;h3 class=&#34;group &#34; id=&#34;2-安装luna&#34;
-    &gt;2. 安装luna&lt;a href=&#34;#2-%e5%ae%89%e8%a3%85luna&#34;
+&lt;h3 class=&#34;group &#34; id=&#34;3-安装luna&#34;
+    &gt;3. 安装luna&lt;a href=&#34;#3-%e5%ae%89%e8%a3%85luna&#34;
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h3&gt;
 
 
 
-&lt;h3 class=&#34;group &#34; id=&#34;3-配置主题&#34;
-    &gt;3. 配置主题&lt;a href=&#34;#3-%e9%85%8d%e7%bd%ae%e4%b8%bb%e9%a2%98&#34;
+&lt;h3 class=&#34;group &#34; id=&#34;4-配置主题&#34;
+    &gt;4. 配置主题&lt;a href=&#34;#4-%e9%85%8d%e7%bd%ae%e4%b8%bb%e9%a2%98&#34;
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h3&gt;
 
@@ -198,13 +405,13 @@
     &lt;/div&gt;&lt;p style=&#34;margin: 0;&#34;&gt;以下两种方法都可以部署，博主两种都试过之后才发现自己是非常画蛇添足地先部署到GitHub Page，再把GitHub Page部署到Vercel上（啊啊啊被自己笨死）。但其实不用这么麻烦的，两种选一种就可以了！（反正在国内这俩都不能流畅访问是吧）&lt;/p&gt;&lt;/div&gt;
 
 &lt;div class=&#34;tabs my-4 flex flex-wrap&#34;&gt;
-&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-412398567-&#34;checked=&#34;checked&#34;/&gt;
-&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-412398567-&#34;&gt;部署在GitHub Page上&lt;/label&gt;
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-241798563-&#34;checked=&#34;checked&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-241798563-&#34;&gt;部署在GitHub Page上&lt;/label&gt;
 &lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;&lt;/div&gt;
 
 
-&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-674315892-&#34;/&gt;
-&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-674315892-&#34;&gt;部署在Vercel上&lt;/label&gt;
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-364579218-&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-364579218-&#34;&gt;部署在Vercel上&lt;/label&gt;
 &lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;这一步出了点问题，不知道为什么最后生成的网页界面是正确的，但是文章内容一个都点不开……遂决定推倒重来&lt;/div&gt;
 
 &lt;/div&gt;
@@ -244,6 +451,11 @@
 &lt;details class=&#34;accordion rounded  border dark:border-darkBorder&#34; &gt;
     &lt;summary class=&#34;flex items-center px-4 py-2 font-bold before:mr-0.5 before:-mt-0.5 before:text-xl before:text-gray-400&#34;&gt;记在这里以备不时之需。&lt;/summary&gt;
     &lt;div class=&#34;border-t px-4 py-2  dark:border-darkBorder&#34;&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a
+    class=&#34;link&#34;
+    href=&#34;https://github.com/Ice-Hazymoon/hugo-theme-luna&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Luna主题GitHub主页&lt;/a
+&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;a
     class=&#34;link&#34;
     href=&#34;https://hugo-theme-luna.imiku.me/zh-cn/2022/05/02/shortcodes.html/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Luna支持的美丽短代码&lt;/a
