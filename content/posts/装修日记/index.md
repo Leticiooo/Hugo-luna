@@ -15,7 +15,7 @@ categories:
 ---
 ## 写在前面
 每次看到别人有自己的漂亮博客就好羡慕好羡慕，但秉持着“只要手头上还有比这更容易做的事就不轻易动手”的原则，一直拖拖拖拖了一整个2022……于是在2023年1月1号这一天，博主抛下了难产的年终总结以及难产的毕设中期报告，撸起袖子开始捣鼓了！  
-- 搭建过程中遇到了很多奇怪的问题（甚至更换了几次主题……），在此特别感谢：
+- 搭建过程中遇到了很多奇怪的问题（推翻重建不说，甚至更换了几次主题），在此特别感谢：
   - [一起动手搭建个人博客吧](https://mantyke.icu/posts/2021/hugo-build-blog/)对静态博客的详尽介绍
   - [hugo博客搭建｜PaperMod主题](https://www.sulvblog.cn/posts/blog/)让我对hugo主题有了更深的理解（当然也跟着这篇博文尝试过大刀阔斧的改建……）
   - 换到luna主题主要参考了[Hugo Luna｜换上了新主题，一边装修一边相声](https://gregueria.icu/posts/hugo-luna/)
@@ -136,7 +136,9 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 打开终端，在根目录下输入`hugo new site myblog`，在/User/Username/下就会出现一个名为“myblog”的新文件夹，该文件夹内的目录结构如下图：
 ![](hugonewsite.png)
 ### 2. 挑选主题
+简单来说就是，打开[官方主题商店](https://themes.gohugo.io/)，然后开始选妃！这一步看似简单但实际耗费了我很长时间……试了好几个主题，也尝试装修了两个，总体感觉各有各的好，最终确定了用美丽的luna！
 ### 3. 安装luna
+
 ### 4. 配置主题
 [官方文档](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)
 ## 托管部署(GitHub Page/Vercel)
@@ -158,6 +160,10 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ## 博客维护与完善
 ### 1. 如何更新博客
 ### 2. 免费域名获取及重定向
+### 3. Waline评论区配置
+#### 添加自定义表情
+#### 评论更新邮件提醒
+#### 取消设备与浏览器版本显示
 ### 3. 其他可能有用的
 {{< accordion "记在这里以备不时之需。" close >}}
 - [Luna主题GitHub主页](https://github.com/Ice-Hazymoon/hugo-theme-luna)

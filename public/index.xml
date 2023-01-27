@@ -28,7 +28,7 @@
 
 &lt;p&gt;每次看到别人有自己的漂亮博客就好羡慕好羡慕，但秉持着“只要手头上还有比这更容易做的事就不轻易动手”的原则，一直拖拖拖拖了一整个2022……于是在2023年1月1号这一天，博主抛下了难产的年终总结以及难产的毕设中期报告，撸起袖子开始捣鼓了！&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;搭建过程中遇到了很多奇怪的问题（甚至更换了几次主题……），在此特别感谢：
+&lt;li&gt;搭建过程中遇到了很多奇怪的问题（推翻重建不说，甚至更换了几次主题），在此特别感谢：
 &lt;ul&gt;
 &lt;li&gt;&lt;a
     class=&#34;link&#34;
@@ -366,6 +366,11 @@ enter出现类似如下的代码&lt;/p&gt;
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h3&gt;
 
+&lt;p&gt;简单来说就是，打开&lt;a
+    class=&#34;link&#34;
+    href=&#34;https://themes.gohugo.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;官方主题商店&lt;/a
+&gt;
+，然后开始选妃！这一步看似简单但实际耗费了我很长时间……试了好几个主题，也尝试装修了两个，总体感觉各有各的好，最终确定了用美丽的luna！&lt;/p&gt;
 
 
 &lt;h3 class=&#34;group &#34; id=&#34;3-安装luna&#34;
@@ -405,13 +410,13 @@ enter出现类似如下的代码&lt;/p&gt;
     &lt;/div&gt;&lt;p style=&#34;margin: 0;&#34;&gt;以下两种方法都可以部署，博主两种都试过之后才发现自己是非常画蛇添足地先部署到GitHub Page，再把GitHub Page部署到Vercel上（啊啊啊被自己笨死）。但其实不用这么麻烦的，两种选一种就可以了！（反正在国内这俩都不能流畅访问是吧）&lt;/p&gt;&lt;/div&gt;
 
 &lt;div class=&#34;tabs my-4 flex flex-wrap&#34;&gt;
-&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-371486295-&#34;checked=&#34;checked&#34;/&gt;
-&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-371486295-&#34;&gt;部署在GitHub Page上&lt;/label&gt;
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-846723519-&#34;checked=&#34;checked&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-846723519-&#34;&gt;部署在GitHub Page上&lt;/label&gt;
 &lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;&lt;/div&gt;
 
 
-&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-163485297-&#34;/&gt;
-&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-163485297-&#34;&gt;部署在Vercel上&lt;/label&gt;
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-927356841-&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-927356841-&#34;&gt;部署在Vercel上&lt;/label&gt;
 &lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;这一步出了点问题，不知道为什么最后生成的网页界面是正确的，但是文章内容一个都点不开……遂决定推倒重来&lt;/div&gt;
 
 &lt;/div&gt;
@@ -440,6 +445,34 @@ enter出现类似如下的代码&lt;/p&gt;
     &gt;2. 免费域名获取及重定向&lt;a href=&#34;#2-%e5%85%8d%e8%b4%b9%e5%9f%9f%e5%90%8d%e8%8e%b7%e5%8f%96%e5%8f%8a%e9%87%8d%e5%ae%9a%e5%90%91&#34;
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h3&gt;
+
+
+
+&lt;h3 class=&#34;group &#34; id=&#34;3-waline评论区配置&#34;
+    &gt;3. Waline评论区配置&lt;a href=&#34;#3-waline%e8%af%84%e8%ae%ba%e5%8c%ba%e9%85%8d%e7%bd%ae&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h3&gt;
+
+
+
+&lt;h4 class=&#34;group &#34; id=&#34;添加自定义表情&#34;
+    &gt;添加自定义表情&lt;a href=&#34;#%e6%b7%bb%e5%8a%a0%e8%87%aa%e5%ae%9a%e4%b9%89%e8%a1%a8%e6%83%85&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h4&gt;
+
+
+
+&lt;h4 class=&#34;group &#34; id=&#34;评论更新邮件提醒&#34;
+    &gt;评论更新邮件提醒&lt;a href=&#34;#%e8%af%84%e8%ae%ba%e6%9b%b4%e6%96%b0%e9%82%ae%e4%bb%b6%e6%8f%90%e9%86%92&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h4&gt;
+
+
+
+&lt;h4 class=&#34;group &#34; id=&#34;取消设备与浏览器版本显示&#34;
+    &gt;取消设备与浏览器版本显示&lt;a href=&#34;#%e5%8f%96%e6%b6%88%e8%ae%be%e5%a4%87%e4%b8%8e%e6%b5%8f%e8%a7%88%e5%99%a8%e7%89%88%e6%9c%ac%e6%98%be%e7%a4%ba&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h4&gt;
 
 
 
