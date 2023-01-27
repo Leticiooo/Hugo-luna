@@ -4122,15 +4122,23 @@ input[type='checkbox'] {
     color: rgb(255 255 255 / var(--tw-text-opacity)); }
   .dark .typo code{
   color: var(--color-dark-text); }
-  .typo img:not(.link-card-img),
+  .typo img{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  max-width: 60%;
+  border-radius: 0.25rem; }
+  .dark .typo img{
+  border-color: var(--color-dark-border); }
   .typo video {
     border: 1px solid #f4f4f4;
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: 100%;
     border-radius: 0.25rem; }
-  .dark .typo img:not(.link-card-img),.dark 
-  .typo video{
+  .dark .typo video{
   border-color: var(--color-dark-border); }
   .typo h4,
   .typo h5,

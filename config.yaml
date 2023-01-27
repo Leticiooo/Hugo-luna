@@ -8,7 +8,6 @@ theme: hugo-theme-luna
 timeout: 60000
 timeZone: Asia/Shanghai
 
-img {zoom: 50%;}
 
 # 可根据 Git 中的提交生成最近更新记录。
 # use git commit log to generate lastmod record
@@ -275,13 +274,13 @@ params:
   # Automatic switching of night mode (using device settings)
   autoDarkMode: true
 
-  # # 文章分享功能
-  # share:
-  #   twitter: true
-  #   facebook: true
-  #   weibo: true
-  #   copyLinkText: true
-  #   qrcode: true
+  # 文章分享功能
+  share:
+    twitter: false
+    facebook: false
+    weibo: false
+    copyLinkText: false
+    qrcode: false
   
 
   # 文章许可设置

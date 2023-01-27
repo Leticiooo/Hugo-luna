@@ -278,7 +278,9 @@ input[type='checkbox'] {
         @apply break-normal rounded bg-gray-700 px-1 py-1 text-sm text-white dark:text-darkText;
     }
 
-    img:not(.link-card-img),
+    img {
+        @apply my-4 rounded dark:border-darkBorder w-auto mx-auto max-w-[60%]
+    }
     video {
         border: 1px solid #f4f4f4;
         @apply my-4 w-full rounded dark:border-darkBorder;
