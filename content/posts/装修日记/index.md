@@ -25,7 +25,7 @@ categories:
 设备与测试环境：{{< tag-outlined blue "MacBook Air 2020(M1)" >}} {{< tag-outlined blue "macOS Ventura 13.1" >}}  {{< tag-outlined blue "Chrome" >}} 
 
 ## ToDo List
-{{< accordion "详情" close >}}
+{{< accordion "详情" open >}}
 - [x] **普通博客文章插入图片默认铺满宽度，无法调整大小（但在gallery模式就可以）**  
   - 2023-01-09更新：解决啦！实在憋不住去GitHub上给作者留了个issue，没想到很快就得到了[回复](https://github.com/Ice-Hazymoon/hugo-theme-luna/issues/60)！
   - 具体方法是在`/assets/sass/typo.scss`中 
@@ -38,8 +38,8 @@ categories:
         @apply my-4 rounded dark:border-darkBorder w-auto mx-auto max-w-[60%] //这里具体大小可以自己调整
     }
   ```
-- [ ] **想要一个评论系统><**  
-  - 因为博客暂时没人看，可以稍后再议
+- [x] **想要一个评论系统><**  
+  - 2023-01-27更新：解决啦！赞美小鱼！具体见下文。
 {{< /accordion >}}
 
 
@@ -162,6 +162,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ### 2. 免费域名获取及重定向
 ### 3. Waline评论区配置
 #### 添加自定义表情
+https://www.norevi.icu/2021/waline%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85/
 #### 评论更新邮件提醒
 #### 取消设备与浏览器版本显示
 ### 3. 其他可能有用的

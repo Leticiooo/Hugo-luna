@@ -64,7 +64,7 @@
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h2&gt;
 
-&lt;details class=&#34;accordion rounded  border dark:border-darkBorder&#34; &gt;
+&lt;details class=&#34;accordion rounded  border dark:border-darkBorder&#34; open&gt;
     &lt;summary class=&#34;flex items-center px-4 py-2 font-bold before:mr-0.5 before:-mt-0.5 before:text-xl before:text-gray-400&#34;&gt;详情&lt;/summary&gt;
     &lt;div class=&#34;border-t px-4 py-2  dark:border-darkBorder&#34;&gt;&lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;普通博客文章插入图片默认铺满宽度，无法调整大小（但在gallery模式就可以）&lt;/strong&gt;
@@ -97,9 +97,9 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;想要一个评论系统&amp;gt;&amp;lt;&lt;/strong&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;想要一个评论系统&amp;gt;&amp;lt;&lt;/strong&gt;
 &lt;ul&gt;
-&lt;li&gt;因为博客暂时没人看，可以稍后再议&lt;/li&gt;
+&lt;li&gt;2023-01-27更新：解决啦！赞美小鱼！具体见下文。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -410,13 +410,13 @@ enter出现类似如下的代码&lt;/p&gt;
     &lt;/div&gt;&lt;p style=&#34;margin: 0;&#34;&gt;以下两种方法都可以部署，博主两种都试过之后才发现自己是非常画蛇添足地先部署到GitHub Page，再把GitHub Page部署到Vercel上（啊啊啊被自己笨死）。但其实不用这么麻烦的，两种选一种就可以了！（反正在国内这俩都不能流畅访问是吧）&lt;/p&gt;&lt;/div&gt;
 
 &lt;div class=&#34;tabs my-4 flex flex-wrap&#34;&gt;
-&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-846723519-&#34;checked=&#34;checked&#34;/&gt;
-&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-846723519-&#34;&gt;部署在GitHub Page上&lt;/label&gt;
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-579632418-&#34;checked=&#34;checked&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-579632418-&#34;&gt;部署在GitHub Page上&lt;/label&gt;
 &lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;&lt;/div&gt;
 
 
-&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-927356841-&#34;/&gt;
-&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-927356841-&#34;&gt;部署在Vercel上&lt;/label&gt;
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-319462785-&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-319462785-&#34;&gt;部署在Vercel上&lt;/label&gt;
 &lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;这一步出了点问题，不知道为什么最后生成的网页界面是正确的，但是文章内容一个都点不开……遂决定推倒重来&lt;/div&gt;
 
 &lt;/div&gt;
@@ -460,6 +460,11 @@ enter出现类似如下的代码&lt;/p&gt;
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h4&gt;
 
+&lt;p&gt;&lt;a
+    class=&#34;link&#34;
+    href=&#34;https://www.norevi.icu/2021/waline%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.norevi.icu/2021/waline%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85/&lt;/a
+&gt;
+&lt;/p&gt;
 
 
 &lt;h4 class=&#34;group &#34; id=&#34;评论更新邮件提醒&#34;
