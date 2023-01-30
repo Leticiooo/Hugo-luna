@@ -1,3 +1,14 @@
 <!-- This file will be added to the <footer> tag -->
 <!-- 这个文件会添加到 <footer> 中 -->
-<!-- <div class="p-4 pt-0 text-center"></div> -->
+<!-- <div class="p-4 pt-0 text-center">
+<span></span>
+</a>
+
+{{$scratch := newScratch}}
+{{ range (where .Site.Pages "Kind" "page" )}}
+    {{$scratch.Add "total" .WordCount}}
+{{ end }}
+{{$var :=  $scratch.Get "total"}}{{$var = div $var 100.0}}{{$var = math.Ceil $var}}{{$var = div $var 10.0}}&nbsp;&nbsp;全站共<font color="#dd6065">&nbsp;{{$var}}k&nbsp;</font>字
+
+{{- if .Site.Params.googleTranslate -}}<div id="google_translate_element" class=" rounded border dark:border-darkBorder overflow-hidden"></div>{{- end -}}
+</div> -->
