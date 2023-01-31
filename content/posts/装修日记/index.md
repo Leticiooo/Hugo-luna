@@ -168,7 +168,7 @@ npm install --production
 ### 2. 免费域名获取及重定向
 ### 3. Waline评论区配置
 #### 添加自定义表情
-为waline添加可爱blob猫猫表情参考了[这篇](https://www.norevi.icu/2021/waline%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85/)
+为waline添加可爱blob猫猫表情参考了[这篇](https://www.norevi.icu/2021/waline%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85/)!  
 只需要在`/layouts/provider/custom.html`中的`emoji:`后添加对应代码，例如添加Blob-cat表情则为：
 ```
 emoji: ['https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs']
@@ -176,6 +176,9 @@ emoji: ['https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs']
 #### 评论更新邮件提醒
 
 #### 取消设备与浏览器版本显示
+
+#### 适配夜间模式
+
 ### 3. 其他可能有用的
 {{< accordion "记在这里以备不时之需。" close >}}
 - [Luna主题GitHub主页](https://github.com/Ice-Hazymoon/hugo-theme-luna)

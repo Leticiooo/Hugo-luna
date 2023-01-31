@@ -8,11 +8,11 @@
 >
 
     <channel>
-        <title>Silly Thing</title>
+        <title>Xaviera</title>
         <atom:link href="%7balternate%20%7bRSS%20application/rss&#43;xml%20%20index%20alternate%20%20false%20false%20true%20false%20false%200%7d%20/index.xml%20https://www.xaviera.eu.org/index.xml%7d" rel="self" type="application/rss+xml" />
         <link>https://www.xaviera.eu.org/</link>
         <managingEditor>xxxiny</managingEditor>
-        <description>Silly Thing</description>
+        <description>Xaviera</description>
         <lastBuildDate>Sun, 01 Jan 2023 14:18:05 +0800</lastBuildDate>
         <language>zh-cn</language>
         <generator>Hugo -- gohugo.io</generator><item>
@@ -424,13 +424,13 @@ enter出现类似如下的代码&lt;/p&gt;
     &lt;/div&gt;&lt;p style=&#34;margin: 0;&#34;&gt;以下两种方法都可以部署，博主两种都试过之后才发现自己是非常画蛇添足地先部署到GitHub Page，再把GitHub Page部署到Vercel上（啊啊啊被自己笨死）。但其实不用这么麻烦的，两种选一种就可以了！（反正在国内这俩都不能流畅访问是吧）&lt;/p&gt;&lt;/div&gt;
 
 &lt;div class=&#34;tabs my-4 flex flex-wrap&#34;&gt;
-&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-694138572-&#34;checked=&#34;checked&#34;/&gt;
-&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-694138572-&#34;&gt;部署在GitHub Page上&lt;/label&gt;
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-189245673-&#34;checked=&#34;checked&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-189245673-&#34;&gt;部署在GitHub Page上&lt;/label&gt;
 &lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;&lt;/div&gt;
 
 
-&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-837241956-&#34;/&gt;
-&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-837241956-&#34;&gt;部署在Vercel上&lt;/label&gt;
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-975183462-&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-975183462-&#34;&gt;部署在Vercel上&lt;/label&gt;
 &lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;这一步出了点问题，不知道为什么最后生成的网页界面是正确的，但是文章内容一个都点不开……遂决定推倒重来&lt;/div&gt;
 
 &lt;/div&gt;
@@ -478,7 +478,7 @@ enter出现类似如下的代码&lt;/p&gt;
     class=&#34;link&#34;
     href=&#34;https://www.norevi.icu/2021/waline%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;这篇&lt;/a
 &gt;
-
+!&lt;br&gt;
 只需要在&lt;code&gt;/layouts/provider/custom.html&lt;/code&gt;中的&lt;code&gt;emoji:&lt;/code&gt;后添加对应代码，例如添加Blob-cat表情则为：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
 &lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
@@ -499,6 +499,13 @@ enter出现类似如下的代码&lt;/p&gt;
 
 &lt;h4 class=&#34;group &#34; id=&#34;取消设备与浏览器版本显示&#34;
     &gt;取消设备与浏览器版本显示&lt;a href=&#34;#%e5%8f%96%e6%b6%88%e8%ae%be%e5%a4%87%e4%b8%8e%e6%b5%8f%e8%a7%88%e5%99%a8%e7%89%88%e6%9c%ac%e6%98%be%e7%a4%ba&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h4&gt;
+
+
+
+&lt;h4 class=&#34;group &#34; id=&#34;适配夜间模式&#34;
+    &gt;适配夜间模式&lt;a href=&#34;#%e9%80%82%e9%85%8d%e5%a4%9c%e9%97%b4%e6%a8%a1%e5%bc%8f&#34;
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h4&gt;
 

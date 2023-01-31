@@ -1,7 +1,7 @@
 baseURL: https://www.xaviera.eu.org/
 languageCode: zh-cn
 defaultContentLanguage: zh-cn
-title: "Silly Thing"
+title: "Xaviera"
 enableRobotsTXT: true
 enableEmoji: true
 theme: hugo-theme-luna
