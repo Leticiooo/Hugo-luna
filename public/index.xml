@@ -378,6 +378,20 @@ enter出现类似如下的代码&lt;/p&gt;
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h3&gt;
 
+&lt;p&gt;在 Hugo 根目录执行&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-v&#34; data-lang=&#34;v&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;git&lt;/span&gt; &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;submodule&lt;/span&gt; &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;add&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;b&lt;/span&gt; &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;master&lt;/span&gt; &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;https&lt;/span&gt;:&lt;span style=&#34;color:#6272a4&#34;&gt;//github.com/Ice-Hazymoon/hugo-theme-luna themes/hugo-theme-luna
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6272a4&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;cd&lt;/span&gt; &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;themes&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;hugo&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;theme&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;luna&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;npm&lt;/span&gt; &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;install&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;--&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;production&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;之后将/mybolg/themes/exampleSite中的config.yaml文件复制到你的站点目录下，并根据自己的需求修改配置内容。（里面写得很详细很贴心！）&lt;/p&gt;
 
 
 &lt;h3 class=&#34;group &#34; id=&#34;4-配置主题&#34;
@@ -410,13 +424,13 @@ enter出现类似如下的代码&lt;/p&gt;
     &lt;/div&gt;&lt;p style=&#34;margin: 0;&#34;&gt;以下两种方法都可以部署，博主两种都试过之后才发现自己是非常画蛇添足地先部署到GitHub Page，再把GitHub Page部署到Vercel上（啊啊啊被自己笨死）。但其实不用这么麻烦的，两种选一种就可以了！（反正在国内这俩都不能流畅访问是吧）&lt;/p&gt;&lt;/div&gt;
 
 &lt;div class=&#34;tabs my-4 flex flex-wrap&#34;&gt;
-&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-579632418-&#34;checked=&#34;checked&#34;/&gt;
-&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-579632418-&#34;&gt;部署在GitHub Page上&lt;/label&gt;
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-694138572-&#34;checked=&#34;checked&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-694138572-&#34;&gt;部署在GitHub Page上&lt;/label&gt;
 &lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;&lt;/div&gt;
 
 
-&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-319462785-&#34;/&gt;
-&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-319462785-&#34;&gt;部署在Vercel上&lt;/label&gt;
+&lt;input type=&#34;radio&#34; name=&#34;tabs&#34; id=&#34;tab-837241956-&#34;/&gt;
+&lt;label class=&#34;order-1 block cursor-pointer px-4 py-2 font-bold&#34; for=&#34;tab-837241956-&#34;&gt;部署在Vercel上&lt;/label&gt;
 &lt;div class=&#34;tab order-last hidden w-full grow border-t border-gray-200 p-4 dark:border-gray-600&#34;&gt;这一步出了点问题，不知道为什么最后生成的网页界面是正确的，但是文章内容一个都点不开……遂决定推倒重来&lt;/div&gt;
 
 &lt;/div&gt;
@@ -460,12 +474,21 @@ enter出现类似如下的代码&lt;/p&gt;
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h4&gt;
 
-&lt;p&gt;&lt;a
+&lt;p&gt;为waline添加可爱blob猫猫表情参考了&lt;a
     class=&#34;link&#34;
-    href=&#34;https://www.norevi.icu/2021/waline%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.norevi.icu/2021/waline%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85/&lt;/a
+    href=&#34;https://www.norevi.icu/2021/waline%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;这篇&lt;/a
 &gt;
-&lt;/p&gt;
 
+只需要在&lt;code&gt;/layouts/provider/custom.html&lt;/code&gt;中的&lt;code&gt;emoji:&lt;/code&gt;后添加对应代码，例如添加Blob-cat表情则为：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;emoji: [&amp;#39;https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs&amp;#39;]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;h4 class=&#34;group &#34; id=&#34;评论更新邮件提醒&#34;
     &gt;评论更新邮件提醒&lt;a href=&#34;#%e8%af%84%e8%ae%ba%e6%9b%b4%e6%96%b0%e9%82%ae%e4%bb%b6%e6%8f%90%e9%86%92&#34;

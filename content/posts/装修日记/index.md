@@ -138,7 +138,13 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ### 2. 挑选主题
 简单来说就是，打开[官方主题商店](https://themes.gohugo.io/)，然后开始选妃！这一步看似简单但实际耗费了我很长时间……试了好几个主题，也尝试装修了两个，总体感觉各有各的好，最终确定了用美丽的luna！
 ### 3. 安装luna
-
+在 Hugo 根目录执行
+```
+git submodule add -b master https://github.com/Ice-Hazymoon/hugo-theme-luna themes/hugo-theme-luna
+cd themes/hugo-theme-luna
+npm install --production
+```
+之后将/mybolg/themes/exampleSite中的config.yaml文件复制到你的站点目录下，并根据自己的需求修改配置内容。（里面写得很详细很贴心！）
 ### 4. 配置主题
 [官方文档](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)
 ## 托管部署(GitHub Page/Vercel)
@@ -162,7 +168,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ### 2. 免费域名获取及重定向
 ### 3. Waline评论区配置
 #### 添加自定义表情
-为waline添加可爱blob猫猫表情参考了[这篇](https://www.norevi.icu/2021/waline%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85/)！
+为waline添加可爱blob猫猫表情参考了[这篇](https://www.norevi.icu/2021/waline%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85/)
 只需要在`/layouts/provider/custom.html`中的`emoji:`后添加对应代码，例如添加Blob-cat表情则为：
 ```
 emoji: ['https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs']
