@@ -28,7 +28,7 @@ categories:
 {{< accordion "详情" open >}}
 - [x] **普通博客文章插入图片默认铺满宽度，无法调整大小（但在gallery模式就可以）**  
   - 2023-01-09更新：解决啦！实在憋不住去GitHub上给作者留了个issue，没想到很快就得到了[回复](https://github.com/Ice-Hazymoon/hugo-theme-luna/issues/60)！
-  - 具体方法是在`/assets/sass/typo.scss`中 
+  - 具体方法是在{{< color "blue" "/assets/sass/typo.scss" >}}中 
   ```scss
     //找到第281行： 
     img:not(.link-card-img), 
@@ -53,8 +53,8 @@ categories:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 但是由于GFW的存在，如果没连VPN，可能会报错
-`curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused`。
-搜索后发现gitee上的大佬写了自动安装脚本，只需在终端内输入
+`curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused`。  
+搜索后发现gitee上的大佬写了自动安装脚本，只需在终端内输入：
 ```
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 ```
@@ -104,9 +104,9 @@ The key's randomart image is:
 |        o*B.o    |
 +----[SHA256]-----+
 ```
-输入自定义密码（不需要的话就一路回车），然后可以看到id_rsa的文件名和路径`/User/Username/.ssh/id_rsa`。 
+输入自定义密码（不需要的话就一路回车），然后可以看到id_rsa的文件名和路径{{< color "blue" "/User/Username/.ssh/id_rsa" >}}。 
 #### 连接SSH
-依据上面的文件路径找到公钥，然而/User/Username/.ssh是个隐藏文件夹，默认情况下我们看不到。为了找到这个隐藏文件夹，使用快捷键{{< tag-outlined blue "shift" >}}+{{< tag-outlined blue "command" >}}+{{< tag-outlined blue "." >}}(每个人设置的快捷键不同，此处是默认快捷键)。右键用记事本打开id_rsa.pub文件，复制里面的全部内容。  
+依据上面的文件路径找到公钥，然而{{< color "blue" "/User/Username/.ssh" >}}是个隐藏文件夹，默认情况下我们看不到。为了找到这个隐藏文件夹，使用快捷键{{< tag-outlined blue "shift" >}}+{{< tag-outlined blue "command" >}}+{{< tag-outlined blue "." >}}(每个人设置的快捷键不同，此处是默认快捷键)。右键用记事本打开{{< color "blue" "id_rsa.pub" >}}文件，复制里面的全部内容。  
 打开 Github 账号，右上角头像 - Settings，在左边找到 SSH and GPG keys 选项，新建一个 SSH 密钥，标题可以随便填，把之前复制的密钥内容粘贴进去，保存。
 
 #### 验证SSH连接是否成功
@@ -121,6 +121,7 @@ Hi Username! You've successfully authenticated, but GitHub does not provide shel
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 很不幸，博主在输入yes后返回的是`git@github.com: Permission denied (publickey).`，搜索发现应该是ssh密钥出了问题，于是返回重新生成.pub文件，但不知道为什么反复重试了好几次之后突然成功了（可能靠一些执着感动了它）。
+
 ***
 {{< notice warn >}}
 安装NodeJS和postcss-cli两步是[Luna主题官方文档](https://github.com/Ice-Hazymoon/hugo-theme-luna/blob/master/README.zh.md)的要求，我在安装其他主题时并未涉及。因此可以查询对应主题的安装文档说明来决定是否需要安装。
@@ -131,9 +132,10 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ### 5.安装postcss-cli
 打开终端，输入`npm install postcss-cli -g`，等待安装即可。
 ***
+
 ## 安装主题
 ### 1. 新建站点
-打开终端，在根目录下输入`hugo new site myblog`，在/User/Username/下就会出现一个名为“myblog”的新文件夹，该文件夹内的目录结构如下图：
+打开终端，在根目录下输入`hugo new site myblog`，在{{< color "blue" "/User/Username" >}}下就会出现一个名为“myblog”的新文件夹（也可以将命令中的my blog改成其他名字，本文中以myblog为例），该文件夹内的目录结构如下图：
 ![](hugonewsite.png)
 ### 2. 挑选主题
 简单来说就是，打开[官方主题商店](https://themes.gohugo.io/)，然后开始选妃！这一步看似简单但实际耗费了我很长时间……试了好几个主题，也尝试装修了两个，总体感觉各有各的好，最终确定了用美丽的luna！
@@ -144,9 +146,16 @@ git submodule add -b master https://github.com/Ice-Hazymoon/hugo-theme-luna them
 cd themes/hugo-theme-luna
 npm install --production
 ```
-之后将/mybolg/themes/exampleSite中的config.yaml文件复制到你的站点目录下，并根据自己的需求修改配置内容。（里面写得很详细很贴心！）
+之后将{{< color "blue" "/mybolg/themes/exampleSite" >}}中的所有内容复制到你的站点目录下，并根据自己的需求修改config.yaml配置内容。（里面写得很详细很贴心！赞美作者！）  
 ### 4. 配置主题
-[官方文档](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)
+> Luna主题经常更新，下文内容可能已经过时。如有解决不了的问题，[Luna主题GitHub主页](https://github.com/Ice-Hazymoon/hugo-theme-luna)的Issue板块是最好的求助渠道。（作者大大非常热心！）
+
+配置主题前，在{{< color "blue" "/User/Username/myblog" >}}下执行命令
+```
+hugo server
+```
+找到最后输出结果中的网址（http://localhost:1313/），打开即可看到博客网页的预览。该网站由本地文件生成，可立刻查看修改结果，非常适合用来配置主题。  
+具体配置主要参考了[官方文档](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)和[这篇](https://gregueria.icu/posts/hugo-luna/)，博主不懂yaml或toml语言，所以只是照猫画虎摸索着大概改了一点……
 ## 托管部署(GitHub Page/Vercel)
 {{< notice warn >}}
 以下两种方法都可以部署，博主两种都试过之后才发现自己是非常画蛇添足地先部署到GitHub Page，再把GitHub Page部署到Vercel上（啊啊啊被自己笨死）。但其实不用这么麻烦的，两种选一种就可以了！（反正在国内这俩都不能流畅访问是吧）
@@ -167,9 +176,34 @@ npm install --production
 ### 1. 如何更新博客
 ### 2. 免费域名获取及重定向
 ### 3. Waline评论区配置
+Waline 的[官方文档](https://waline.js.org/guide/get-started/#leancloud-settings-database)写得非常清晰！跟着官方文档从“LeanCloud设置”一直到“评论管理步骤”即可完成（可以跳过“绑定域名”）。  
+其中“HTML引入”这一步，找到{{< color "blue" "/layouts/partials/comments/provider/custom.html" >}}，写入：
+```html
+<div class="border-t py-6 px-6 md:px-8 dark:border-darkBorder">
+    <div id="waline"></div>
+
+    <script data-swup-reload-script>
+        setTimeout(() => {
+            console.log(document.getElementById('waline'))
+            window.waline = Waline.init({
+                el: '#waline',
+                serverURL: '', //此处填入“Vercel部署”这一步得到的服务端地址
+                emoji: [],
+                requiredMeta: ['name', 'email', 'url'],
+            });
+        }, 1000);
+    </script>
+</div>
+```
+之后去{{< color "blue" "layouts/partials/custom/head.html" >}}，写入：
+```html
+<script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
+```
+最后在根目录下的{{< color "blue" "config.yaml" >}}找到评论模块，将 giscus 改成 custom 即可。
 #### 添加自定义表情
 为waline添加可爱blob猫猫表情参考了[这篇](https://www.norevi.icu/2021/waline%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85/)!  
-只需要在`/layouts/provider/custom.html`中的`emoji:`后添加对应代码，例如添加Blob-cat表情则为：
+只需要在`/layouts/provider/custom.html`中的`emoji:`后添加对应代码，例如添加Blob-cat表情则为（其余以此类推）：
 ```
 emoji: ['https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs']
 ```

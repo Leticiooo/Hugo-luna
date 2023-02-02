@@ -188,7 +188,7 @@ params:
   # Comment system
   comments:
     enabled: true
-    # provider: "giscus" # custom | giscus
+    provider: "custom" # custom | giscus
   #   giscus: &giscus
   #     repo: "Ice-Hazymoon/hugo-theme-luna"
   #     repoID: "R_kgDOHQOwYw"
