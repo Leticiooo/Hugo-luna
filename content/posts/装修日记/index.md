@@ -2,7 +2,7 @@
 title: "装修日记"
 date: 2023-01-01T14:18:05+08:00
 slug: decoration
-draft: false # 是否为草稿
+draft: true # 是否为草稿
 Toc: true # 显示目录
 Summary: 坎坷艰辛的搭建旅程，被自己笨死一万次。
 # type: "post" or "status"
@@ -171,9 +171,27 @@ hugo server
 {{< /tab-panel >}}
 {{< /tab-view >}}
 
+
 {{< hr "到这里就完成了博客的搭建和部署！" >}}
 ## 博客维护与完善
 ### 1. 如何更新博客
+#### git pull
+#### 解决git分支问题
+leticia@192 ~ % cd /Users/leticia/Leticiooo.github.io 
+leticia@192 Leticiooo.github.io % git branch
+  main
+* master
+leticia@192 Leticiooo.github.io % git checkout -b main
+fatal: a branch named 'main' already exists
+leticia@192 Leticiooo.github.io % git checkout main   
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+leticia@192 Leticiooo.github.io % git branch
+* main
+  master
+leticia@192 Leticiooo.github.io % git branch -d master
+Deleted branch master (was 5619141).
+leticia@192 Leticiooo.github.io % 
 ### 2. 免费域名获取及重定向
 ### 3. Waline评论区配置
 Waline 的[官方文档](https://waline.js.org/guide/get-started/#leancloud-settings-database)写得非常清晰！跟着官方文档从“LeanCloud设置”一直到“评论管理步骤”即可完成（可以跳过“绑定域名”）。  
@@ -208,7 +226,7 @@ Waline 的[官方文档](https://waline.js.org/guide/get-started/#leancloud-sett
 emoji: ['https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs']
 ```
 #### 评论更新邮件提醒
-
+如果想要获得即时的评论通知，waline 提供多种方式的提醒渠道，包括邮件、微信、企业微信等等，具体设置方式[Waline文档](https://waline.js.org/guide/features/notification.html#%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5%22)也说得很清楚，贴在这里评论通知 | Waline 。
 #### 取消设备与浏览器版本显示
 
 #### 适配夜间模式

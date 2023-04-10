@@ -40,8 +40,8 @@ author:
 frontmatter:
   lastmod:
     - :git
-    - lastmod
-    - :fileModTime
+    # - lastmod
+    # - :fileModTime
     - date
     - publishDate
     - :default
@@ -264,11 +264,11 @@ params:
 
   # 显示文章过时提醒
   # show warning when outdated info detected
-  # outdatedInfoWarning:
-  #   enabled: true
-  #   # 超过该天数将显示过时提醒
-  #   # A timeout reminder will be displayed if the last modification time exceeds that number of days
-  #   day: 90
+  outdatedInfoWarning:
+    enabled: false
+    # 超过该天数将显示过时提醒
+    # A timeout reminder will be displayed if the last modification time exceeds that number of days
+    day: 90
 
   # 自动切换夜间模式（使用设备设置）
   # Automatic switching of night mode (using device settings)
@@ -344,7 +344,7 @@ params:
 
   # 文章页显示最后修改时间
   # For outdated reminders
-  lastmod: true
+  lastmod: false
 
   # 显示阅读时间
   # show reading time
