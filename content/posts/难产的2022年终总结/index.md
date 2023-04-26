@@ -1,6 +1,6 @@
 ---
 title: "难产的2022年终总结"
-date: 2022-12-31T10:54:50+08:00
+date: 2022-12-31
 slug: annual-summary-2022
 summary: —— 不会比这一年更差了，对吧？
 tags:

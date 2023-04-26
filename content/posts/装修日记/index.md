@@ -1,8 +1,8 @@
 ---
 title: "装修日记"
-date: 2023-01-01T14:18:05+08:00
+date: 2023-01-01
 slug: decoration
-draft: true # 是否为草稿
+draft: false # 是否为草稿
 Toc: true # 显示目录
 Summary: 坎坷艰辛的搭建旅程，被自己笨死一万次。
 # type: "post" or "status"
