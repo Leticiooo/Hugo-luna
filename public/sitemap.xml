@@ -2,42 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.xaviera.eu.org/tags/blog/</loc>
-    <lastmod>2023-01-01T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.xaviera.eu.org/categories/</loc>
-    <lastmod>2023-01-01T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.xaviera.eu.org/posts/</loc>
-    <lastmod>2023-01-01T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.xaviera.eu.org/tags/</loc>
-    <lastmod>2023-01-01T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.xaviera.eu.org/</loc>
-    <lastmod>2023-01-01T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.xaviera.eu.org/categories/%E8%B7%8C%E8%B7%8C%E6%92%9E%E6%92%9Eing/</loc>
-    <lastmod>2023-01-01T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.xaviera.eu.org/posts/decoration.html/</loc>
-    <lastmod>2023-01-01T00:00:00+08:00</lastmod>
+    <lastmod>2022-12-31T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.xaviera.eu.org/tags/monthly/</loc>
+    <lastmod>2022-12-31T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.xaviera.eu.org/posts/</loc>
+    <lastmod>2022-12-31T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.xaviera.eu.org/tags/</loc>
+    <lastmod>2022-12-31T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.xaviera.eu.org/</loc>
     <lastmod>2022-12-31T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
