@@ -4,7 +4,7 @@ date: 2022-12-31
 slug: annual-summary-2022
 summary: —— 不会比这一年更差了，对吧？
 tags:
-  - Dairy
+  - Monthly
 categories:
   - 学说话
 draft: false # 是否为草稿
