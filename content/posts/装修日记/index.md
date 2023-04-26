@@ -9,7 +9,7 @@ Summary: 坎坷艰辛的搭建旅程，被自己笨死一万次。
 # author: Author
 # featured_image: cover.jpg
 tags: 
-    - Tech
+    - Blog
 categories:
   - 跌跌撞撞ing
 ---
