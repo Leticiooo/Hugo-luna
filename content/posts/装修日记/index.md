@@ -2,7 +2,7 @@
 title: "装修日记"
 date: 2023-01-01
 slug: decoration
-draft: true # 是否为草稿
+draft: false # 是否为草稿
 Toc: true # 显示目录
 Summary: 坎坷艰辛的搭建旅程，被自己笨死一万次。
 # type: "post" or "status"
@@ -11,7 +11,7 @@ Summary: 坎坷艰辛的搭建旅程，被自己笨死一万次。
 tags: 
     - Blog
 categories:
-  - 跌跌撞撞ing
+  - 跌跌撞撞
 ---
 ## 写在前面
 每次看到别人有自己的漂亮博客就好羡慕好羡慕，但秉持着“只要手头上还有比这更容易做的事就不轻易动手”的原则，一直拖拖拖拖了一整个2022……于是在2023年1月1号这一天，博主抛下了难产的年终总结以及难产的毕设中期报告，撸起袖子开始捣鼓了！  
@@ -25,7 +25,8 @@ categories:
 设备与测试环境：{{< tag-outlined blue "MacBook Air 2020(M1)" >}} {{< tag-outlined blue "macOS Ventura 13.1" >}}  {{< tag-outlined blue "Chrome" >}} 
 
 ## ToDo List
-{{< accordion "详情" open >}}
+
+{{< accordion "详情" close >}}
 - [x] **普通博客文章插入图片默认铺满宽度，无法调整大小（但在gallery模式就可以）**  
   - 2023-01-09更新：解决啦！实在憋不住去GitHub上给作者留了个issue，没想到很快就得到了[回复](https://github.com/Ice-Hazymoon/hugo-theme-luna/issues/60)！
   - 具体方法是在{{< color "blue" "/assets/sass/typo.scss" >}}中 
@@ -40,6 +41,8 @@ categories:
   ```
 - [x] **想要一个评论系统><**  
   - 2023-01-27更新：解决啦！赞美小鱼！具体见下文。
+- [ ] **waline评论区夜间模式设置**
+  - 在官网上看到了这个：[自定义样式 | 暗黑模式](https://waline.js.org/guide/features/style.html)，有空研究一下！
 {{< /accordion >}}
 
 
@@ -129,10 +132,11 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ### 4.安装NodeJS
 进入[NodeJS官网](https://nodejs.org/zh-cn/download/)挑选合适的安装包下载即可。
 ![](NodeJS.png)
+
 ### 5.安装postcss-cli
 打开终端，输入`npm install postcss-cli -g`，等待安装即可。
-***
 
+***
 ## 安装主题
 ### 1. 新建站点
 打开终端，在根目录下输入`hugo new site myblog`，在{{< color "blue" "/User/Username" >}}下就会出现一个名为“myblog”的新文件夹（也可以将命令中的my blog改成其他名字，本文中以myblog为例），该文件夹内的目录结构如下图：
@@ -141,7 +145,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 简单来说就是，打开[官方主题商店](https://themes.gohugo.io/)，然后开始选妃！这一步看似简单但实际耗费了我很长时间……试了好几个主题，也尝试装修了两个，总体感觉各有各的好，最终确定了用美丽的luna！
 ### 3. 安装luna
 在 Hugo 根目录执行
-```
+```shell
 git submodule add -b master https://github.com/Ice-Hazymoon/hugo-theme-luna themes/hugo-theme-luna
 cd themes/hugo-theme-luna
 npm install --production
@@ -156,43 +160,72 @@ hugo server
 ```
 找到最后输出结果中的网址（http://localhost:1313/），打开即可看到博客网页的预览。该网站由本地文件生成，可立刻查看修改结果，非常适合用来配置主题。  
 具体配置主要参考了[官方文档](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)和[这篇](https://gregueria.icu/posts/hugo-luna/)，博主不懂yaml或toml语言，所以只是照猫画虎摸索着大概改了一点……
+
+***
 ## 托管部署(GitHub Page/Vercel)
 {{< notice warn >}}
-以下两种方法都可以部署，博主两种都试过之后才发现自己是非常画蛇添足地先部署到GitHub Page，再把GitHub Page部署到Vercel上（啊啊啊被自己笨死）。但其实不用这么麻烦的，两种选一种就可以了！（反正在国内这俩都不能流畅访问是吧）
+以下两种方法都可以部署，博主两种都试过之后才发现自己是非常画蛇添足地先部署到GitHub Page，再把GitHub Page部署到Vercel上（啊啊啊被自己笨死）。但其实不用这么麻烦的，两种选一种就可以了！（反正在国内这俩都不能流畅访问TvT）
 {{< /notice >}}
 
 {{< tab-view >}}
 {{< tab-panel name="部署在GitHub Page上" checked=true >}}
-
+完全参考了[](https://simumis.com/posts/deploy-to-github/)
 {{< /tab-panel >}}
 
 {{< tab-panel name="部署在Vercel上" >}}
-这一步出了点问题，不知道为什么最后生成的网页界面是正确的，但是文章内容一个都点不开……遂决定推倒重来
+Vercel 是一个开箱即用的网站托管服务，简单来说 Vercel 部署个人网站的路径是安装主题文件并创建 GitHub 仓库之前先用 Vercel 生成 hugo 模板网页，并自动创建 GitHub 仓库，之后使用 GitHub Desktop 克隆 GitHub 仓库到你选定的空文件夹，由此将模板文件下载到本地，之后再更改为你想要的主题。详细步骤如下：
+
+点击 Vercel 注册 页面，选择使用 Github 账号注册，弹出授权窗口时，点击 Authorize Vercel，随后跳转到 Let’s build something new 页面（如果没有，在 Dashboard 点击 New project），之后点击 Browse All Templates，下拉，找到 Hugo。在 Create Git Repository 模块点击 GIT SCOPE 下拉列表，点击 Add GitHub Org or Account，弹出安装窗口，点击 Install。之后再在 GIT SCOPE 中点击你的 Github 账户，在右侧 RESPOSITY NAME 位置输入你想设置的仓库名（这里输入什么都可以，我们举例时就命名它为 Hugo），依次点击 Create-Skip，等待约半分钟，Vercel 就会自动搭建一个 Hugo 博客。
 {{< /tab-panel >}}
 {{< /tab-view >}}
 
 
 {{< hr "到这里就完成了博客的搭建和部署！" >}}
 ## 博客维护与完善
+
 ### 1. 如何更新博客
+> 想不到啊想不到，这一步居然都绊了我好久……被自己笨死！
+
 #### git pull
+
 #### 解决git分支问题
-leticia@192 ~ % cd /Users/leticia/Leticiooo.github.io 
-leticia@192 Leticiooo.github.io % git branch
+如果把博客推送到 Github 仓库后发现 Vercel 没有反应，很可能是 git 分支没有推送正确，因此我们需要修改 git 分支。解决方法如下：
+
+**【方法一】**
+
+在终端中进入博客文件夹，输入`git branch`查看当前分支，返回：
+```
   main
 * master
-leticia@192 Leticiooo.github.io % git checkout -b main
-fatal: a branch named 'main' already exists
-leticia@192 Leticiooo.github.io % git checkout main   
+```
+说明当前默认为 master 分支。所以我们输入`git checkout main`切换分支，返回：
+```
 Switched to branch 'main'
 Your branch is up to date with 'origin/main'.
-leticia@192 Leticiooo.github.io % git branch
+```
+此时再次输入`git branch`，会得到：
+```
 * main
   master
-leticia@192 Leticiooo.github.io % git branch -d master
-Deleted branch master (was 5619141).
-leticia@192 Leticiooo.github.io % 
+```
+说明分支已经切换成功了。
+
+**【方法二】**
+
+在Vercel的{{< color "blue" "Project" >}}面板里检查是否有这一句：{{< color "blue" "To update your Production Deployment, push to the “main” branch." >}}
+![](mainbranch.png)
+如果是，在 Vercel 中点击{{< color "blue" "Setting" >}}，左侧栏中找到{{< color "blue" "Git" >}}，在{{< color "blue" "Production Branch-BRANCH NAME" >}}中，将{{< color "blue" "master" >}}改为{{< color "blue" "main" >}}，再推送一次一般就能解决问题。  
+出现这个问题是由于 Git 有个设定叫分支，可以粗暴理解为不同的子文件夹，Vercel 只会监测被设定好的分支的修改。现在 Github 默认的主分支叫 master（目前在使用的分支可以在 Github 仓库左上角找到），我们的改动都是推送到 master 分支，如果 Vercel 被设定成监测 main 分支，那当然不会触发任何改动啦！
+> 如果想了解 Git 分支究竟是什么，可以参考[Git 分支 - 分支简介](https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%AE%80%E4%BB%8B)
+
+***
 ### 2. 免费域名获取及重定向
+我采用的是eu.org + CloudDNS的方法，成功实现了免费+国内直连两大目标！  
+具体操作完完全全参考了[这篇](https://www.houdini.eu.org/eu.org-cloudns%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D%E5%B0%8F%E6%92%87%E6%AD%A5.html/)，大声赞美！
+
+> 2023-01-29 更新：这个方法似乎也不能国内直连了……权当拥有了一个新域名叭(> <)
+
+***
 ### 3. Waline评论区配置
 Waline 的[官方文档](https://waline.js.org/guide/get-started/#leancloud-settings-database)写得非常清晰！跟着官方文档从“LeanCloud设置”一直到“评论管理步骤”即可完成（可以跳过“绑定域名”）。  
 其中“HTML引入”这一步，找到{{< color "blue" "/layouts/partials/comments/provider/custom.html" >}}，写入：
@@ -219,18 +252,22 @@ Waline 的[官方文档](https://waline.js.org/guide/get-started/#leancloud-sett
 <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
 ```
 最后在根目录下的{{< color "blue" "config.yaml" >}}找到评论模块，将 giscus 改成 custom 即可。
+
 #### 添加自定义表情
 为waline添加可爱blob猫猫表情参考了[这篇](https://www.norevi.icu/2021/waline%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85/)!  
 只需要在`/layouts/provider/custom.html`中的`emoji:`后添加对应代码，例如添加Blob-cat表情则为（其余以此类推）：
 ```
 emoji: ['https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs']
 ```
+
 #### 评论更新邮件提醒
-如果想要获得即时的评论通知，waline 提供多种方式的提醒渠道，包括邮件、微信、企业微信等等，具体设置方式[Waline文档](https://waline.js.org/guide/features/notification.html#%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5%22)也说得很清楚，贴在这里评论通知 | Waline 。
+如果想要获得即时的评论通知，waline 提供多种方式的提醒渠道，包括邮件、微信、企业微信等等，具体设置方式Waline官方文档也说得很清楚，贴在这里：[评论通知 | Waline](https://waline.js.org/guide/features/notification.html#%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5%22) 。
+
 #### 取消设备与浏览器版本显示
+自己发了一条评论进行测试后，发现评论者昵称下方会出现设备与浏览器的版本号。应该是 Waline 的“贴心”新功能，但是对我来讲太多余了。搜索后发现取消方法是在 Vercel 生成的 waline 网页项目中设置环境变量 `DISABLE_USERAGENT` 值为 `True`。  
+📢  **注意：** 对环境变量进行任何改动之后都需要在项目主页进行 Redeploy 才会生效。
 
-#### 适配夜间模式
-
+***
 ### 3. 其他可能有用的
 {{< accordion "记在这里以备不时之需。" close >}}
 - [Luna主题GitHub主页](https://github.com/Ice-Hazymoon/hugo-theme-luna)
