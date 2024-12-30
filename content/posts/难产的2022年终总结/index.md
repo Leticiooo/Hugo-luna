@@ -3,8 +3,8 @@ title: "难产的2022年终总结"
 date: 2022-12-31
 slug: annual-summary-2022
 summary: —— 不会比这一年更差了，对吧？
-tags:
-  - Monthly
+# tags:
+#   - Monthly
 categories:
   - 学说话
 draft: false # 是否为草稿

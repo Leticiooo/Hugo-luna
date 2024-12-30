@@ -12,17 +12,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.xaviera.eu.org/tags/monthly/</loc>
-    <lastmod>2024-12-30T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.xaviera.eu.org/posts/</loc>
-    <lastmod>2024-12-30T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.xaviera.eu.org/tags/</loc>
     <lastmod>2024-12-30T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -34,11 +24,6 @@
   </url><url>
     <loc>https://www.xaviera.eu.org/categories/%E5%AD%A6%E8%AF%B4%E8%AF%9D/</loc>
     <lastmod>2024-12-30T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.xaviera.eu.org/tags/blog/</loc>
-    <lastmod>2023-01-01T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -66,6 +51,10 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.xaviera.eu.org/search/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.xaviera.eu.org/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>

@@ -8,8 +8,8 @@ Summary: 坎坷艰辛的搭建旅程，被自己笨死一万次。
 # type: "post" or "status"
 # author: Author
 # featured_image: cover.jpg
-tags: 
-    - Blog
+# tags: 
+#     - Blog
 categories:
   - 跌跌撞撞
 ---
