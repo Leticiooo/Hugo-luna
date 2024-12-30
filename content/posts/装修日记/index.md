@@ -164,20 +164,23 @@ hugo server
 ***
 ## 托管部署(GitHub Page/Vercel)
 {{< notice warn >}}
-以下两种方法都可以部署，博主两种都试过之后才发现自己是非常画蛇添足地先部署到GitHub Page，再把GitHub Page部署到Vercel上（啊啊啊被自己笨死）。但其实不用这么麻烦的，两种选一种就可以了！（反正在国内这俩都不能流畅访问TvT）
+以下两种方法都可以部署，博主两种都试过之后才发现自己曾经是非常画蛇添足地先部署到GitHub Page，再把GitHub Page部署到Vercel上（啊啊啊被自己笨死）。但其实不用这么麻烦的，两种选一种就可以了！（反正在国内这俩都不能流畅访问TvT）
 {{< /notice >}}
 
-{{< tab-view >}}
-{{< tab-panel name="部署在GitHub Page上" checked=true >}}
-完全参考了[](https://simumis.com/posts/deploy-to-github/)
-{{< /tab-panel >}}
+### 部署在Vercel上
+1. 点击 Vercel [注册](https://vercel.com/signup) 页面，选择使用 Github 账号注册；
+2. 弹出授权窗口时，点击 {{< color blue "Authorize Vercel" >}}，随后跳转到 {{< color blue "Let’s build something new" >}} 页面（如果没有，在 Dashboard 点击 {{< color blue "New Project" >}}）；
+3. 点击 {{< color blue "Browse All Templates" >}}，下拉，找到 Hugo；
+4. 在 {{< color blue "Create Git Repository" >}} 模块点击 {{< color blue "GIT SCOPE" >}} 下拉列表，点击 {{< color blue "Add GitHub Org or Account" >}} ，弹出安装窗口，点击 {{< color blue "Install" >}} ；
+5. 在{{< color blue "GIT SCOPE" >}}中点击你的 Github 账户，在右侧{{< color blue "RESPOSITY NAME" >}}位置输入你想设置的仓库名（这里输入什么都可以），依次点击 {{< color blue "Create-Skip" >}}，等待约半分钟，Vercel 就会自动搭建一个 Hugo 博客。
+![](vercel-new.png)
 
-{{< tab-panel name="部署在Vercel上" >}}
-Vercel 是一个开箱即用的网站托管服务，简单来说 Vercel 部署个人网站的路径是安装主题文件并创建 GitHub 仓库之前先用 Vercel 生成 hugo 模板网页，并自动创建 GitHub 仓库，之后使用 GitHub Desktop 克隆 GitHub 仓库到你选定的空文件夹，由此将模板文件下载到本地，之后再更改为你想要的主题。详细步骤如下：
+此时点击 {{< color blue "Go To Dashboard" >}} 可以进入管理页面，红框部分即为自动分配的访问网址域名，同时你的 Github 仓库中，会出现一个由 Vercel 创建的叫 Hugo 的博客仓库。
+![](verceldomain.png)
 
-点击 Vercel 注册 页面，选择使用 Github 账号注册，弹出授权窗口时，点击 Authorize Vercel，随后跳转到 Let’s build something new 页面（如果没有，在 Dashboard 点击 New project），之后点击 Browse All Templates，下拉，找到 Hugo。在 Create Git Repository 模块点击 GIT SCOPE 下拉列表，点击 Add GitHub Org or Account，弹出安装窗口，点击 Install。之后再在 GIT SCOPE 中点击你的 Github 账户，在右侧 RESPOSITY NAME 位置输入你想设置的仓库名（这里输入什么都可以，我们举例时就命名它为 Hugo），依次点击 Create-Skip，等待约半分钟，Vercel 就会自动搭建一个 Hugo 博客。
-{{< /tab-panel >}}
-{{< /tab-view >}}
+
+### 部署在GitHub Page上
+完全参考了[将Hugo静态网站部署到Github Pages](https://simumis.com/posts/deploy-to-github/)，非常清晰！
 
 
 {{< hr "到这里就完成了博客的搭建和部署！" >}}
@@ -191,7 +194,7 @@ Vercel 是一个开箱即用的网站托管服务，简单来说 Vercel 部署�
 #### 解决git分支问题
 如果把博客推送到 Github 仓库后发现 Vercel 没有反应，很可能是 git 分支没有推送正确，因此我们需要修改 git 分支。解决方法如下：
 
-**【方法一】**
+##### **方法一**
 
 在终端中进入博客文件夹，输入`git branch`查看当前分支，返回：
 ```
@@ -210,7 +213,7 @@ Your branch is up to date with 'origin/main'.
 ```
 说明分支已经切换成功了。
 
-**【方法二】**
+##### **方法二**
 
 在Vercel的{{< color "blue" "Project" >}}面板里检查是否有这一句：{{< color "blue" "To update your Production Deployment, push to the “main” branch." >}}
 ![](mainbranch.png)
